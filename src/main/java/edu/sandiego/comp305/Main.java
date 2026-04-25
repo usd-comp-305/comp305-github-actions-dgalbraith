@@ -15,7 +15,7 @@ public final class Main {
      *
      * @param args command-line arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         System.out.println("Hello and welcome!");
 
         for (int i = 1; i <= 5; i++) {
