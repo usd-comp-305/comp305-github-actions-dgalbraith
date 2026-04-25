@@ -11,5 +11,14 @@ class StringUtilsTest {
         assertEquals("hello", StringUtils.reverseString("olleh"));
     }
 
+    @Test
+    void reverseString_a() {
+        assertEquals("a", StringUtils.reverseString("a"));
+    }
+
+    @Test
+    void reverseString_helloWorld() {
+        assertEquals("hello world", StringUtils.reverseString("dlrow olleh"));
+    }
 
 }
