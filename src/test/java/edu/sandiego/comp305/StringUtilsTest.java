@@ -20,5 +20,4 @@ class StringUtilsTest {
     void reverseString_helloWorld() {
         assertEquals("hello world", StringUtils.reverseString("dlrow olleh"));
     }
-
 }
